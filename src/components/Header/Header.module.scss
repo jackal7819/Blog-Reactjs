@@ -1,0 +1,55 @@
+.root {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 30px;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    @media (max-width: 586px) {
+        justify-content: center;
+    }
+}
+
+.logo {
+    background-color: #4361ee;
+    color: #fff;
+    font-weight: 700;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.15px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    &:hover {
+        background-color: #38B2AC;
+    }
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    button {
+        &:hover {
+            background-color: #38B2AC;
+            border-color: #38B2AC;
+            color: #ffffff;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
